@@ -2,12 +2,12 @@
 lab:
   title: Membuat Bot dengan Bot Framework SDK
   module: Module 7 - Conversational AI and the Azure Bot Service
-ms.openlocfilehash: 7f2d78bec2ee9fab7bf5fad9ec9ef8ebc76b7fba
-ms.sourcegitcommit: d6da3bcb25d1cff0edacd759e75b7608a4694f03
+ms.openlocfilehash: ab51a1f11f4eee99838634d83b5d9261a8c20ecb
+ms.sourcegitcommit: 480c5898009ea964025fdecb57900aefeeac81fd
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "145195686"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "147019884"
 ---
 # <a name="create-a-bot-with-the-bot-framework-sdk"></a>Membuat Bot dengan Bot Framework SDK
 
@@ -27,6 +27,8 @@ Anda akan menggunakan Kerangka kerja Bot SDK untuk membuat bot Anda, dan Bot Fra
 
 1. Mulai **Bot Framework Emulator**, dan jika Anda diminta untuk memasang pembaruan, lakukan untuk pengguna yang saat ini masuk. Jika Anda tidak diminta secara otomatis, gunakan opsi **Periksa pembaruan** pada menu **Bantuan** untuk memeriksa pembaruan.
 2. Setelah memasang pembaruan yang tersedia, tutup Bot Framework Emulator hingga Anda membutuhkannya lagi nanti.
+
+> **Penting**: Terkadang pembaruan gagal diunduh, dan sedang diselidiki. Jika tidak ada kemajuan dalam beberapa menit setelah mencoba memperbarui, Anda dapat mengabaikan unduhan dan menggunakan versi emulator yang saat ini diinstal.
 
 ### <a name="clone-the-repository-for-this-course"></a>Kloning repositori untuk kursus ini
 
