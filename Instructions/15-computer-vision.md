@@ -2,12 +2,12 @@
 lab:
   title: Analisis Gambar dengan Computer Vision
   module: Module 8 - Getting Started with Computer Vision
-ms.openlocfilehash: 5b7f15550844e4bc5efbdb3b8ee00d71760f18c9
-ms.sourcegitcommit: d6da3bcb25d1cff0edacd759e75b7608a4694f03
+ms.openlocfilehash: f2ee18ff682d53e9fd554749ed2b9cbaa9b03611
+ms.sourcegitcommit: 7191e53bc33cda92e710d957dde4478ee2496660
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "145195633"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "147041666"
 ---
 # <a name="analyze-images-with-computer-vision"></a>Analisis Gambar dengan Computer Vision
 
@@ -29,11 +29,11 @@ Jika Anda belum mengkloning repositori kode **AI-102-AIEngineer** ke lingkungan 
 Jika Anda belum memilikinya dalam langganan, Anda harus menyediakan sumber daya **Cognitive Services**.
 
 1. Buka portal Azure di `https://portal.azure.com`, dan masuk menggunakan akun Microsoft yang terkait dengan langganan Azure Anda.
-2. Pilih tombol **&#65291;Buat sumber daya**, cari *Cognitive Services*, dan buat sumber daya **Cognitive Services** dengan pengaturan berikut:
+2. Pilih tombol **&#65291;Buat sumber daya**, jelajahi *layanan kognitif*, dan buat sumber daya **Cognitive Services** dengan pengaturan berikut:
     - **Langganan**: *Langganan Azure Anda*
     - **Grup sumber daya**: *Pilih atau buat grup sumber daya (jika Anda menggunakan langganan terbatas, Anda mungkin tidak memiliki izin untuk membuat grup sumber daya baru - gunakan yang disediakan)*
     - **Wilayah**: *Pilih wilayah yang tersedia*
-    - **Nama**: *Masukkan nama yang unik*
+    - **Nama**: *Masukkan nama unik*
     - **Tingkat harga**: Standar S0
 3. Pilih kotak centang yang diperlukan dan buat sumber daya.
 4. Tunggu hingga penyebaran selesai, lalu lihat detail penyebaran.
@@ -64,7 +64,7 @@ pip install azure-cognitiveservices-vision-computervision==0.7.0
     - **C#** : appsettings.json
     - **Python**: .env
 
-    Buka file konfigurasi dan perbarui nilai konfigurasi yang dikandungnya untuk mencerminkan **titik akhir** dan **kunci** autentikasi untuk sumber daya cognitive services Anda. Simpan perubahan Anda.
+    Buka file konfigurasi dan perbarui nilai konfigurasi yang dikandungnya untuk mencerminkan **titik akhir** dan **kunci** autentikasi untuk sumber daya layanan kognitif Anda. Simpan perubahan Anda.
 4. Perhatikan bahwa folder **image-analysis** berisi file kode untuk aplikasi klien:
 
     - **C#** : Program.cs
@@ -265,16 +265,15 @@ if (len(analysis.tags) > 0):
 
 ## <a name="get-image-categories"></a>Mendapatkan kategori gambar
 
-Layanan Computer Vision dapat menyarankan *kategori* untuk gambar, dan dalam setiap kategori dapat mengidentifikasi bangunan terkenal atau selebritas.
+Layanan Computer Vision dapat menyarankan *kategori* untuk gambar, dan dalam setiap kategori dapat mengidentifikasi bangunan terkenal.
 
-1. Dalam fungsi **AnalyzeImage**, di bawah komentar **Dapatkan kategori gambar (termasuk selebriti dan landmark)** , tambahkan kode berikut:
+1. Dalam fungsi **AnalyzeImage**, di bawah komentar **Dapatkan kategori gambar**, tambahkan kode berikut:
 
 **C#**
 
 ```C
-// Get image categories (including celebrities and landmarks)
+// Get image categories
 List<LandmarksModel> landmarks = new List<LandmarksModel> {};
-List<CelebritiesModel> celebrities = new List<CelebritiesModel> {};
 Console.WriteLine("Categories:");
 foreach (var category in analysis.Categories)
 {
@@ -292,18 +291,6 @@ foreach (var category in analysis.Categories)
             }
         }
     }
-
-    // Get celebrities in this category
-    if (category.Detail?.Celebrities != null)
-    {
-        foreach (CelebritiesModel celebrity in category.Detail.Celebrities)
-        {
-            if (!celebrities.Any(item => item.Name == celebrity.Name))
-            {
-                celebrities.Add(celebrity);
-            }
-        }
-    }
 }
 
 // If there were landmarks, list them
@@ -316,25 +303,15 @@ if (landmarks.Count > 0)
     }
 }
 
-// If there were celebrities, list them
-if (celebrities.Count > 0)
-{
-    Console.WriteLine("Celebrities:");
-    foreach(CelebritiesModel celebrity in celebrities)
-    {
-        Console.WriteLine($" -{celebrity.Name} (confidence: {celebrity.Confidence.ToString("P")})");
-    }
-}
 ```
 
 **Python**
 
 ```Python
-# Get image categories (including celebrities and landmarks)
+# Get image categories
 if (len(analysis.categories) > 0):
     print("Categories:")
     landmarks = []
-    celebrities = []
     for category in analysis.categories:
         # Print the category
         print(" -'{}' (confidence: {:.2f}%)".format(category.name, category.score * 100))
@@ -345,27 +322,15 @@ if (len(analysis.categories) > 0):
                     if landmark not in landmarks:
                         landmarks.append(landmark)
 
-            # Get celebrities in this category
-            if category.detail.celebrities:
-                for celebrity in category.detail.celebrities:
-                    if celebrity not in celebrities:
-                        celebrities.append(celebrity)
-
     # If there were landmarks, list them
     if len(landmarks) > 0:
         print("Landmarks:")
         for landmark in landmarks:
             print(" -'{}' (confidence: {:.2f}%)".format(landmark.name, landmark.confidence * 100))
 
-    # If there were celebrities, list them
-    if len(celebrities) > 0:
-        print("Celebrities:")
-        for celebrity in celebrities:
-            print(" -'{}' (confidence: {:.2f}%)".format(celebrity.name, celebrity.confidence * 100))
-
 ```
     
-2. Simpan perubahan Anda dan jalankan program satu kali untuk setiap file gambar dalam folder **gambar**, dengan mengamati bahwa selain keterangan gambar dan tag, daftar kategori yang disarankan ditampilkan bersama dengan landmark atau selebritas yang dikenali (khususnya pada gambar **building.jpg** dan **person.jpg**).
+2. Simpan perubahan Anda dan jalankan program satu kali untuk setiap file gambar dalam folder **gambar**, dengan mengamati bahwa selain keterangan gambar dan tag, daftar kategori yang disarankan ditampilkan bersama dengan landmark (khususnya pada gambar **building.jpg**).
 
 ## <a name="get-brands-in-an-image"></a>Mendapatkan merek dalam gambar
 

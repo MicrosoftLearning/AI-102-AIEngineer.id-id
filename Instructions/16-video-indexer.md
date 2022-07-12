@@ -2,24 +2,26 @@
 lab:
   title: Menganalisis Video dengan Video Analyzer
   module: Module 8 - Getting Started with Computer Vision
-ms.openlocfilehash: cd67c472b5ee15efce232483afc8aeeac552b50c
-ms.sourcegitcommit: d6da3bcb25d1cff0edacd759e75b7608a4694f03
+ms.openlocfilehash: ec23e53f363ed7c7df8fd598cfd1fc8807712f05
+ms.sourcegitcommit: 7191e53bc33cda92e710d957dde4478ee2496660
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "145195682"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "147041675"
 ---
 # <a name="analyze-video-with-video-analyzer"></a>Menganalisis Video dengan Video Analyzer
 
 Sebagian besar data yang dibuat dan digunakan saat ini dalam format video. **Video Analyzer for Media** adalah layanan yang didukung AI yang dapat Anda gunakan untuk mengindeks video dan mengekstrak wawasan video.
 
-## <a name="clone-the-repository-for-this-course"></a>Mengkloning repositori untuk kursus ini
+> **Catatan**: Mulai 21 Juni 2022, kemampuan layanan kognitif yang mengembalikan informasi identitas pribadi dibatasi untuk pelanggan yang telah diberikan [akses terbatas](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-limited-access). Selain itu, kemampuan yang menyimpulkan keadaan emosional tidak lagi tersedia. Pembatasan ini dapat memengaruhi latihan lab ini. Kami berupaya mengatasi hal ini, tetapi sementara itu Anda mungkin mengalami beberapa kesalahan saat mengikuti langkah-langkah di bawah ini; yang kami minta maaf. Untuk detail selengkapnya tentang perubahan yang telah dilakukan Microsoft, dan mengapa - lihat [Investasi dan perlindungan AI yang bertanggung jawab untuk pengenalan wajah](https://azure.microsoft.com/blog/responsible-ai-investments-and-safeguards-for-facial-recognition/).
 
-Jika Anda sudah mengkloning repositori kode **AI-102-AIEngineer** ke lingkungan tempat Anda bekerja di lab ini, buka di Visual Studio Code; jika belum, ikuti langkah-langkah ini untuk mengkloningnya sekarang.
+## <a name="clone-the-repository-for-this-course"></a>Kloning repositori untuk kursus ini
+
+Jika Anda telah mengkloning repositori kode **AI-102-AIEngineer** ke lingkungan tempat Anda bekerja di lab ini, buka di Visual Studio Code; jika tidak, ikuti langkah-langkah ini untuk mengkloningnya sekarang.
 
 1. Mulai Visual Studio Code.
-2. Buka palet (SHIFT+CTRL+P) dan jalankan **Git: Perintah klon** untuk mengkloning repositori `https://github.com/MicrosoftLearning/AI-102-AIEngineer` ke folder lokal (tidak masalah folder mana).
-3. Setelah repositori dikloning, buka folder di Visual Studio Code.
+2. Buka palet (SHIFT+CTRL+P) dan jalankan **Git: Perintah klon** untuk mengkloning repositori `https://github.com/MicrosoftLearning/AI-102-AIEngineer` ke folder lokal (tidak masalah folder mana pun).
+3. Ketika repositori telah dikloning, buka folder di Visual Studio Code.
 4. Tunggu sementara file tambahan diinstal untuk mendukung proyek kode C# di repositori.
 
     > **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan guna membangun dan men-debug, pilih **Tidak Sekarang**.
