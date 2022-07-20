@@ -2,18 +2,18 @@
 lab:
   title: Menganalisis Video dengan Video Analyzer
   module: Module 8 - Getting Started with Computer Vision
-ms.openlocfilehash: ec23e53f363ed7c7df8fd598cfd1fc8807712f05
-ms.sourcegitcommit: 7191e53bc33cda92e710d957dde4478ee2496660
+ms.openlocfilehash: 50223cdfeb0a22933858d595d9329f8b8dcd873d
+ms.sourcegitcommit: e20d9099aaecdefa62a763dae24833b97e3d9f6d
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "147041675"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "147052854"
 ---
 # <a name="analyze-video-with-video-analyzer"></a>Menganalisis Video dengan Video Analyzer
 
 Sebagian besar data yang dibuat dan digunakan saat ini dalam format video. **Video Analyzer for Media** adalah layanan yang didukung AI yang dapat Anda gunakan untuk mengindeks video dan mengekstrak wawasan video.
 
-> **Catatan**: Mulai 21 Juni 2022, kemampuan layanan kognitif yang mengembalikan informasi identitas pribadi dibatasi untuk pelanggan yang telah diberikan [akses terbatas](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-limited-access). Selain itu, kemampuan yang menyimpulkan keadaan emosional tidak lagi tersedia. Pembatasan ini dapat memengaruhi latihan lab ini. Kami berupaya mengatasi hal ini, tetapi sementara itu Anda mungkin mengalami beberapa kesalahan saat mengikuti langkah-langkah di bawah ini; yang kami minta maaf. Untuk detail selengkapnya tentang perubahan yang telah dilakukan Microsoft, dan mengapa - lihat [Investasi dan perlindungan AI yang bertanggung jawab untuk pengenalan wajah](https://azure.microsoft.com/blog/responsible-ai-investments-and-safeguards-for-facial-recognition/).
+> **Catatan**: Mulai 21 Juni 2022, kemampuan layanan kognitif yang mengembalikan informasi identitas pribadi dibatasi untuk pelanggan yang telah diberikan [akses terbatas](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-limited-access). Tanpa mendapatkan persetujuan akses terbatas, mengenali orang dan selebriti dengan Video Analyzer untuk lab ini tidak tersedia. Untuk detail selengkapnya tentang perubahan yang telah dilakukan Microsoft, dan mengapa - lihat [Investasi dan perlindungan AI yang bertanggung jawab untuk pengenalan wajah](https://azure.microsoft.com/blog/responsible-ai-investments-and-safeguards-for-facial-recognition/).
 
 ## <a name="clone-the-repository-for-this-course"></a>Kloning repositori untuk kursus ini
 
@@ -80,34 +80,6 @@ Anda dapat menggunakan Video Analyzer untuk mencari video guna mendapatkan wawas
 
 ![Hasil pencarian Video Analyzer untuk Lebah](./images/video-indexer-search.png)
 
-## <a name="edit-insights"></a>Mengedit wawasan
-
-Anda dapat menggunakan Video Analyzer untuk mengedit wawasan yang telah ditemukan, menambahkan informasi khusus untuk lebih memahami video.
-
-1. Putar ulang video ke awal dan lihat **orang** yang tercantum di bagian atas panel **Wawasan**. Perhatikan bahwa beberapa orang telah dikenali, termasuk **Eric Horwitz**, ilmuwan komputer dan Rekan Teknis di Microsoft.
-
-![Wawasan Video Analyzer untuk orang yang dikenal](./images/video-indexer-known-person.png)
-
-2. Pilih foto Eric Horwitz, dan lihat informasi di bawahnya - perluas bagian **Tampilkan biografi** untuk melihat informasi tentang orang ini.
-3. Perhatikan bahwa lokasi di video tempat orang ini muncul ditunjukkan. Anda dapat menggunakan ini untuk melihat bagian-bagian video tersebut.
-4. Di pemutar video, temukan orang yang berbicara di menit ke 0:34:
-
-![Wawasan Video Analyzer untuk orang yang tidak dikenal](./images/video-indexer-unknown-person.png)
-
-5. Perhatikan bahwa orang ini tidak dikenali, dan telah diberi nama umum seperti **Tidak Diketahui #1**. Namun, video tersebut menyertakan keterangan dengan nama orang ini, sehingga kami dapat memperkaya wawasan dengan mengedit detail untuk orang ini.
-6. Di kanan atas portal, pilih ikon **Edit** (&#x1F589;). Kemudian ubah nama orang yang tidak dikenal menjadi **Natasha Crampton**.
-
-![Mengedit seseorang di Video Analyzer](./images/video-indexer-edit-name.png)
-
-7. Setelah Anda mengubah nama, cari panel **Wawasan** untuk *Natasha*. Hasilnya harus mencakup satu orang, dan menunjukkan bagian video tempat orang tersebut muncul.
-8. Di kiri atas portal, luaskan menu (&#8801;) dan pilih halaman **Penyesuaian model**. Kemudian pada tab **Orang**, perhatikan bahwa model orang **Default** memiliki satu orang di dalamnya. Video Analyzer telah menambahkan orang yang diberi nama ke model orang, sehingga orang tersebut akan dikenali di video mendatang yang diindeks di akun Anda.
-
-![Model orang default di Video Analyzer](./images/video-indexer-custom-model.png)
-
-Anda dapat menambahkan gambar orang ke model orang default, atau menambahkan model baru Anda sendiri. Hal ini memungkinkan Anda menentukan kumpulan orang dengan gambar wajah mereka sehingga Video Analyzer dapat mengenali orang tersebut di video Anda.
-
-Perhatikan juga bahwa Anda juga dapat membuat model kustom untuk bahasa (misalnya untuk menentukan terminologi khusus industri yang ingin dikenali oleh Video Analyzer) dan merek (misalnya, nama perusahaan atau produk).
-
 ## <a name="use-video-analyzer-widgets"></a>Menggunakan widget Video Analyzer
 
 Portal Video Analyzer adalah antarmuka yang berguna untuk mengelola proyek pengindeksan video. Namun, ada kalanya Anda ingin membuat video dan wawasannya tersedia bagi orang-orang yang tidak memiliki akses ke akun Video Analyzer Anda. Video Analyzer menyediakan widget yang dapat Anda sematkan di halaman web untuk tujuan ini.
@@ -155,5 +127,7 @@ Semua interaksi dengan REST API Video Analyzer mengikuti pola yang sama:
 6. Lihat respons JSON dari layanan REST, yang seharusnya berisi detail video **AI yang Bertanggung Jawab** yang Anda indeks sebelumnya.
 
 ## <a name="more-information"></a>Informasi selengkapnya
+
+Pengenalan orang dan selebriti masih tersedia, tetapi mengikuti [Standar AI yang Bertanggung Jawab](https://aka.ms/aah91ff) yang dibatasi di balik kebijakan Akses Terbatas. Fitur-fitur ini termasuk identifikasi wajah dan pengenalan selebriti. Untuk mempelajari selengkapnya dan mengajukan permohonan akses, lihat [Akses Terbatas untuk Cognitive Services](https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-limited-access).
 
 Untuk informasi selengkapnya tentang **Video Analyzer**, lihat [dokumentasi Video Analyzer](https://docs.microsoft.com/azure/azure-video-analyzer/video-analyzer-for-media-docs/).
