@@ -166,13 +166,13 @@ Jenis entitas yang paling umum adalah entitas *learned*, di mana model belajar m
 
 2. Di kotak dialog **Tambahkan entitas**, masukkan nama entitas **Location** dan pastikan bahwa **Learned** dipilih. Kemudian klik **Tambahkan entitas**.
 
-3. Setelah entitas **Location** dibuat, kembali ke halaman **Bangu skema** lalu pada tab **Niat**, pilih niat **GetTime**.
+3. Setelah entitas **Location** dibuat, kembali ke halaman **Bangun skema** lalu pada tab **Niat**, pilih niat **GetTime**.
 
 4. Masukkan contoh ucapan baru berikut:
 
     `what time is it in London?`
 
-5. Ketika ucapan telah ditambahkan, pilih kata ***London** _, dan dalam daftar dropdown yang muncul, pilih _ *Location** untuk menunjukkan bahwa "London" adalah contoh dari sebuah lokasi.
+5. Ketika ucapan telah ditambahkan, pilih kata ***London** _, dan dalam daftar menurun yang muncul, pilih _ *Location** untuk menunjukkan bahwa "London" adalah contoh dari sebuah lokasi.
 
 6. Tambahkan contoh ucapan lainnya:
 
@@ -253,7 +253,7 @@ Layanan Bahasa menyediakan sekumpulan entitas *prebuilt* yang biasanya digunakan
 
     `what day was 01/01/1901?`
 
-7. Ketika ucapan telah ditambahkan, pilih ***01/01/1901** _, dan dalam daftar dropdown yang muncul, pilih _*Date**.
+7. Ketika ucapan telah ditambahkan, pilih ***01/01/1901** _, dan dalam daftar menurun yang muncul, pilih _*Date**.
 
 8. Tambahkan contoh ucapan lainnya:
 

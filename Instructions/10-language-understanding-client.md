@@ -319,7 +319,7 @@ python clock-client.py
 >   2. Kirim ucapan untuk mendapatkan prediksi.
 >   3. Terapkan logika untuk merespons dengan tepat maksud dan entitas yang diprediksi.
 
-6. Setelah Anda selesai menguji, masukkan *berhenti*.
+6. Setelah Anda selesai menguji, masukkan *stop*.
 
 ## <a name="more-information"></a>Informasi selengkapnya
 

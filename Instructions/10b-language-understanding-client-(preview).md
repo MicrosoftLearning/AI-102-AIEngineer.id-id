@@ -8,7 +8,7 @@ ms.contentlocale: id-ID
 ms.lasthandoff: 04/09/2022
 ms.locfileid: "145195718"
 ---
-# <a name="create-a-language-service-client-application"></a>membuat Aplikasi Klien Layanan Bahasa
+# <a name="create-a-language-service-client-application"></a>Membuat Aplikasi Klien Layanan Bahasa
 
 Fitur LUIS Percakapan dari Azure Cognitive Service untuk Bahasa memungkinkan Anda menentukan model bahasa percakapan yang dapat digunakan aplikasi klien untuk menafsirkan masukan bahasa alami dari pengguna, memprediksi *niat* pengguna (apa yang ingin mereka capai), dan mengidentifikasi *entitas* yang harus diterapkan maksud tersebut. Anda dapat membuat aplikasi klien yang menggunakan model pemahaman bahasa percakapan secara langsung melalui antarmuka REST, atau dengan menggunakan kit pengembangan perangkat lunak (SDK) khusus bahasa.
 
@@ -24,7 +24,7 @@ Jika Anda telah mengkloning repositori kode **AI-102-AIEngineer** ke lingkungan 
 
 4. Tunggu sementara file tambahan diinstal untuk mendukung proyek kode C# di repositori.
 
-    > **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan untuk membangun dan men-debug, pilih **Tidak Sekarang**.
+    > **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan untuk membangun dan melakukan debug, pilih **Tidak Sekarang**.
 
 ## <a name="create-language-service-resources"></a>Membuat sumber daya layanan Bahasa
 
@@ -383,7 +383,7 @@ Sekarang Anda siap untuk menerapkan kode yang menggunakan SDK untuk mendapatkan 
 >   2. Mengirim ucapan untuk mendapatkan prediksi.
 >   3. Menerapkan logika untuk merespons dengan tepat niat dan entitas yang diprediksi.
 
-6. Setelah Anda selesai menguji, masukkan *keluar*.
+6. Setelah Anda selesai menguji, masukkan *out*.
 
 ## <a name="more-information"></a>Informasi selengkapnya
 

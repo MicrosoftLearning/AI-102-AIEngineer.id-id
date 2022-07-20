@@ -199,7 +199,7 @@ Bot yang dirancang dengan baik harus memungkinkan pengguna untuk mengubah alur p
 
 4. Di panel navigasi, pilih **BeginDialog** di bawah dialog **GetWeather**.
 5. Pilih tindakan **Prompt for text** yang meminta pengguna untuk memasukkan kota mereka.
-6. Di properti untuk tindakan, pada tab **Lainnya**, luaskan **Konfigurasi Prompt** dan atur properti **Izinkan Interupsi** ke **benar**.
+6. Di properti untuk tindakan, pada tab **Lainnya**, luaskan **Konfigurasi Prompt** dan atur properti **Izinkan Interupsi** ke **TRUE**.
 7. Mulai ulang bot dan buka panel web chat. Mulai ulang percakapan, dan setelah memasukkan nama Anda, masukkan `What is the weather like?`. Kemudian, saat diminta, masukkan `cancel`, dan konfirmasikan bahwa permintaan dibatalkan.
 8. Setelah membatalkan permintaan, masukkan `What's the weather like?` dan perhatikan bahwa pemicu yang sesuai memulai instans baru dari dialog **GetWeather**, yang meminta Anda sekali lagi untuk memasukkan kota.
 9. Setelah Anda selesai menguji, tutup panel web chat dan hentikan bot.

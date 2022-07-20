@@ -24,7 +24,7 @@ Jika Anda sudah mengkloning repositori kode **AI-102-AIEngineer** ke lingkungan 
 3. Setelah repositori dikloning, buka folder di Visual Studio Code.
 4. Tunggu sementara file tambahan diinstal untuk mendukung proyek kode C# di repositori.
 
-    > **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan guna membangun dan men-debug, pilih **Tidak Sekarang**.
+    > **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan untuk membangun dan men-debug, pilih **Tidak Sekarang**.
 
 ## <a name="create-language-understanding-resources"></a>Membuat sumber daya Pemahaman Bahasa
 
@@ -467,7 +467,7 @@ else:
 
     *Tanggal berapa hari Minggu?*
 
-> **Catatan**: Logika dalam aplikasi sengaja sederhana, dan memiliki sejumlah batasan, tetapi harus melayani tujuan pengujian kemampuan model LUIS untuk memprediksi niat dari input lisan menggunakan Speech SDK. Anda mungkin mengalami masalah saat mengenali niat **GetDay** dengan entitas tanggal tertentu karena kesulitan dalam menyeimbangkan tanggal dalam format *MM/DD/YYYY* !
+> **Catatan**: Logika dalam aplikasi memang sederhana, dan memiliki sejumlah batasan, tetapi harus mencakup tujuan pengujian kemampuan model LUIS untuk memprediksi niat dari input lisan menggunakan Speech SDK. Anda mungkin mengalami masalah saat mengenali niat **GetDay** dengan entitas tanggal tertentu karena kesulitan dalam menyeimbangkan tanggal dalam format *BB/TT/TTTT* !
 
 ## <a name="more-information"></a>Informasi selengkapnya
 

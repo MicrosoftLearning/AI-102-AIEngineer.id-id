@@ -11,7 +11,7 @@ ms.locfileid: "145195692"
 ---
 # <a name="translate-speech"></a>Menerjemahkan Azure Cognitive Service untuk Ucapan
 
-Layanan **Speech** menyertakan API **Speech translation** yang dapat Anda gunakan untuk menerjemahkan bahasa lisan. Misalnya, Anda ingin mengembangkan aplikasi penerjemah yang dapat digunakan orang saat bepergian di tempat-tempat di mana mereka tidak berbicara bahasa lokal. Mereka akan dapat mengucapkan frasa seperti "Di mana stasiunnya?" atau "Saya perlu mencari apotek" dalam bahasa mereka sendiri, dan memintanya menerjemahkannya ke bahasa lokal.
+Layanan **Speech** menyertakan API **Speech translation** yang dapat Anda gunakan untuk menerjemahkan bahasa lisan. Misalnya, Anda ingin mengembangkan aplikasi penerjemah yang dapat digunakan orang saat bepergian di tempat yang bahasa lokalnya tidak mereka kuasai. Mereka akan dapat mengucapkan frasa seperti "Di mana stasiunnya?" atau "Saya perlu mencari apotek" dalam bahasa mereka sendiri, dan memintanya menerjemahkannya ke bahasa lokal.
 
 **Catatan**: Latihan ini mengharuskan Anda menggunakan komputer dengan speaker/headphone. Untuk pengalaman terbaik, mikrofon juga diperlukan. Beberapa lingkungan virtual yang dihosting mungkin dapat menangkap audio dari mikrofon lokal Anda, tetapi jika ini tidak berhasil (atau Anda tidak memiliki mikrofon sama sekali), Anda dapat menggunakan file audio yang disediakan untuk input ucapan. Ikuti petunjuknya dengan cermat, karena Anda harus memilih opsi yang berbeda tergantung pada apakah Anda menggunakan mikrofon atau file audio.
 
@@ -24,7 +24,7 @@ Jika Anda telah mengkloning repositori kode **AI-102-AIEngineer** ke lingkungan 
 3. Ketika repositori telah dikloning, buka folder di Visual Studio Code.
 4. Tunggu sementara file tambahan diinstal untuk mendukung proyek kode C# di repositori.
 
-    > **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan untuk membangun dan men-debug, pilih **Tidak Sekarang**.
+    > **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan untuk membangun dan melakukan debug, pilih **Tidak Sekarang**.
 
 ## <a name="provision-a-cognitive-services-resource"></a>Menyediakan sumber daya Cognitive Services
 
@@ -116,7 +116,7 @@ Dalam latihan ini, Anda akan menyelesaikan aplikasi klien yang diimplementasikan
     print('Ready to translate from',translation_config.speech_recognition_language)
     ```
 
-6. Anda akan menggunakan **SpeechTranslationConfig** untuk menerjemahkan ucapan menjadi teks, namun Anda juga akan menggunakan **SpeechConfig** untuk mensintesis terjemahan menjadi ucapan. Tambahkan kode berikut di bawah komentar **Konfigurasikan ucapan**:
+6. Anda akan menggunakan **SpeechTranslationConfig** untuk menerjemahkan ucapan menjadi teks, tetapi Anda juga akan menggunakan **SpeechConfig** untuk mensintesis terjemahan menjadi ucapan. Tambahkan kode berikut di bawah komentar **Konfigurasikan ucapan**:
 
     **C#**
     

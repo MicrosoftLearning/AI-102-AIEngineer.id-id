@@ -30,7 +30,7 @@ Jika Anda belum mengkloning repositori kode **AI-102-AIEngineer** ke lingkungan 
 3. Setelah repositori dikloning, buka folder di Visual Studio Code.
 4. Tunggu sementara file tambahan diinstal untuk mendukung proyek kode C# di repositori.
 
-    > **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan guna membangun dan men-debug, pilih **Tidak Sekarang**.
+    > **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan untuk membangun dan melakukan debug, pilih **Tidak Sekarang**.
 
 ## <a name="create-language-understanding-resources"></a>Membuat sumber daya Pemahaman Bahasa
 
@@ -153,7 +153,7 @@ Jenis entitas yang paling umum adalah entitas *machine learned*, di mana aplikas
 
     *jam berapa sekarang di London?*
 
-5. Ketika ucapan telah ditambahkan, pilih kata ***london** _, dan dalam daftar dropdown yang muncul, pilih _ *Location** untuk menunjukkan bahwa "london" adalah contoh dari sebuah lokasi.
+5. Ketika ucapan telah ditambahkan, pilih kata ***london** _, dan dalam daftar menurun yang muncul, pilih _ *Location** untuk menunjukkan bahwa "london" adalah contoh dari sebuah lokasi.
 6. Tambahkan contoh ucapan lainnya:
 
     *jam berapa sekarang di New York?*
@@ -183,7 +183,7 @@ Dalam beberapa kasus, nilai yang valid untuk suatu entitas dapat dibatasi pada d
 
     *hari Sabtu tanggal berapa?*
 
-5. Ketika ucapan telah ditambahkan, pastikan bahwa **sabtu** telah dipetakan secara otomatis ke entitas **Weekday**. Jika tidak, pilih kata **_saturday_ *_, dan di daftar dropdown yang muncul, pilih _* Weekday**.
+5. Ketika ucapan telah ditambahkan, pastikan bahwa **sabtu** telah dipetakan secara otomatis ke entitas **Weekday**. Jika tidak, pilih kata **_saturday_ *_, dan di daftar menurun yang muncul, pilih _* Weekday**.
 6. Tambahkan contoh ucapan lainnya:
 
     *tanggal berapa hari Jumat?*
@@ -201,14 +201,14 @@ Terkadang, entitas memiliki format tertentu, seperti nomor seri, kode formulir, 
     [0-9]{2}/[0-9]{2}/[0-9]{4}
     ```
 
-    > **Catatan**: Ini adalah regex sederhana yang memeriksa dua digit diikuti dengan "/", dua digit lainnya, "/", dan empat digit - misalnya *11/01/2020*. Ini memungkinkan tanggal yang tidak valid, seperti *56/00/9999*; namun penting untuk diingat bahwa regex entitas digunakan untuk mengidentifikasi entri data yang *dimaksudkan* sebagai tanggal - bukan untuk memvalidasi nilai tanggal.
+    > **Catatan**: Ini adalah regex sederhana yang memeriksa dua digit diikuti dengan "/", dua digit lainnya, "/", dan empat digit - misalnya *11/01/2020*. Ini memungkinkan tanggal yang tidak valid, seperti *56/00/9999*; tetapi penting untuk diingat bahwa regex entitas digunakan untuk mengidentifikasi entri data yang *dimaksudkan* sebagai tanggal - bukan untuk memvalidasi nilai tanggal.
 
 3. Setelah entitas **Date** dibuat, kembali ke halaman **Niat** dan pilih niat **GetDay**.
 4. Masukkan contoh ucapan baru berikut:
 
     *tanggal 01/01/1901 hari apa?*
 
-5. Ketika ucapan telah ditambahkan, pastikan bahwa **01/01/1901** telah dipetakan secara otomatis ke entitas **Date**. Jika tidak, pilih **_01/01/1901_ *_, dan di daftar dropdown yang muncul, pilih _* Date**.
+5. Ketika ucapan telah ditambahkan, pastikan bahwa **01/01/1901** telah dipetakan secara otomatis ke entitas **Date**. Jika tidak, pilih **_01/01/1901_ *_, dan di daftar menurun yang muncul, pilih _* Date**.
 6. Tambahkan contoh ucapan lainnya:
 
     *tanggal 12/12/2099 hari apa?*
@@ -327,7 +327,7 @@ Anda dapat menggunakan portal Pemahaman Bahasa untuk mengembangkan dan menguji a
 
 1. Di portal Pemahaman Bahasa, pilih **Kelola**.
 2. Pada halaman **Versi**, pilih versi aplikasi saat ini (seharusnya hanya ada satu).
-3. Dalam daftar dropdown **Ekspor**, pilih **Ekspor sebagai LU**. Kemudian, saat diminta oleh browser Anda, simpan file dalam folder **09-luis-app**.
+3. Dalam daftar menurun **Ekspor**, pilih **Ekspor sebagai LU**. Kemudian, saat diminta oleh browser Anda, simpan file dalam folder **09-luis-app**.
 4. Di Visual Studio Code, buka file **.lu** yang baru saja Anda ekspor dan unduh (jika Anda diminta untuk mencari ekstensi di marketplace yang dapat membacanya, abaikan perintah tersebut). Perhatikan bahwa format LU dapat dibaca manusia, menjadikannya cara yang efektif untuk mendokumentasikan definisi aplikasi Pemahaman Bahasa Anda di lingkungan pengembangan tim.
 
 ## <a name="more-information"></a>Informasi selengkapnya

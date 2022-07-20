@@ -19,9 +19,9 @@ Dalam latihan ini, Anda akan menggunakan Microsoft Bot Framework SDK untuk membu
 
 Mari kita mulai dengan mempersiapkan lingkungan untuk pengembangan bot.
 
-### <a name="update-the-bot-framework-emulator"></a>Perbarui Emulator Kerangka Bot
+### <a name="update-the-bot-framework-emulator"></a>Perbarui Emulator Bot Framework
 
-Anda akan menggunakan Kerangka kerja Bot SDK untuk membuat bot Anda, dan Bot Framework Emulator untuk mengujinya. Emulator Kerangka Kerja Bot diperbarui secara berkala, jadi pastikan Anda telah memasang versi terbaru.
+Anda akan menggunakan Bot Framework SDK untuk membuat bot Anda, dan Bot Framework Emulator untuk mengujinya. Emulator Bot Framework diperbarui secara berkala, jadi pastikan Anda telah memasang versi terbaru.
 
 > **Catatan**: Pembaruan dapat mencakup perubahan pada antarmuka pengguna yang memengaruhi instruksi dalam latihan ini.
 
@@ -39,7 +39,7 @@ Jika Anda belum mengkloning repositori kode **AI-102-AIEngineer** ke lingkungan 
 3. Ketika repositori telah dikloning, buka folder di Visual Studio Code.
 4. Tunggu sementara file tambahan diinstal untuk mendukung proyek kode C# di repositori.
 
-    > **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan untuk membangun dan men-debug, pilih **Tidak Sekarang**.
+    > **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan untuk membangun dan melakukan debug, pilih **Tidak Sekarang**.
 
 ## <a name="create-a-bot"></a>Buat bot
 
@@ -93,7 +93,7 @@ Jika Anda menggunakan Python, saat diminta oleh cookiecutter, masukkan detail be
     dir
     ```
 
-## <a name="test-the-bot-in-the-bot-framework-emulator"></a>Uji bot di Emulator Kerangka Bot
+## <a name="test-the-bot-in-the-bot-framework-emulator"></a>Uji bot di Emulator Bot Framework
 
 Anda telah membuat bot berdasarkan kerangka *EchoBot*. Sekarang Anda dapat menjalankannya secara lokal dan mengujinya dengan menggunakan Bot Framework Emulator (yang harus dipasang pada sistem Anda).
 
@@ -113,7 +113,7 @@ python app.py
     
 Saat bot dimulai, perhatikan titik akhir saat bot berjalan ditampilkan. Ini harus mirip dengan **http://localhost:3978** .
 
-2. Mulai Emulator Kerangka Bot, dan buka bot Anda dengan menentukan titik akhir dengan menambahkan jalur **/api/messages**, seperti ini:
+2. Mulai Emulator Bot Framework, dan buka bot Anda dengan menentukan titik akhir dengan menambahkan jalur **/api/messages**, seperti ini:
 
     `http://localhost:3978/api/messages`
 
@@ -191,7 +191,7 @@ python app.py
 
 Seperti sebelumnya, saat bot dimulai, perhatikan titik akhir saat bot berjalan ditampilkan.
 
-5. Mulai Emulator Kerangka Bot, dan buka bot Anda dengan menentukan titik akhir dengan menambahkan jalur **/api/messages**, seperti ini:
+5. Mulai Emulator Bot Framework, dan buka bot Anda dengan menentukan titik akhir dengan menambahkan jalur **/api/messages**, seperti ini:
 
     `http://localhost:3978/api/messages`
 
@@ -205,4 +205,4 @@ Seperti sebelumnya, saat bot dimulai, perhatikan titik akhir saat bot berjalan d
 
 ## <a name="more-information"></a>Informasi selengkapnya
 
-Untuk mempelajari lebih lanjut tentang Kerangka Bot, lihat [dokumentasi Kerangka Kerja Bot](https://docs.microsoft.com/azure/bot-service/index-bf-sdk).
+Untuk mempelajari lebih lanjut tentang Bot Framework, lihat [dokumentasi Bot Framework](https://docs.microsoft.com/azure/bot-service/index-bf-sdk).

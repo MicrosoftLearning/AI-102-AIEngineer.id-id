@@ -29,7 +29,7 @@ Jika Anda belum mengkloning repositori kode **AI-102-AIEngineer** ke lingkungan 
 3. Setelah repositori dikloning, buka folder di Visual Studio Code.
 4. Tunggu sementara file tambahan diinstal untuk mendukung proyek kode C# di repositori.
 
-    **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan guna membangun dan men-debug, pilih **Tidak Sekarang**.
+    **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan untuk membangun dan melakukan debug, pilih **Tidak Sekarang**.
 
 ## <a name="provision-a-cognitive-services-resource"></a>Menyediakan sumber daya Cognitive Services
 
@@ -336,7 +336,7 @@ Aplikasi jam berbicara Anda menerima masukan lisan, tetapi tidak benar-benar ber
     python speaking-clock.py
     ```
 
-5. Ketika diminta, bicaralah dengan jelas ke mikrofon dan ucapkan "jam berapa sekarang?". Program harus berbicara, memberi tahu Anda waktu.
+5. Ketika diminta, bicaralah dengan jelas ke mikrofon dan ucapkan "jam berapa sekarang?". Program harus berbicara dan memberitahukan waktu.
 
 ## <a name="use-a-different-voice"></a>Gunakan suara yang berbeda
 
