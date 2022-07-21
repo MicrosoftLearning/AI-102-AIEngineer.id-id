@@ -11,7 +11,7 @@ ms.locfileid: "145195693"
 ---
 # <a name="enable-resource-providers"></a>Mengaktifkan Penyedia Sumber Daya
 
-Ada beberapa penyedia sumber daya yang harus terdaftar di langganan Azure Anda. Ikuti langkah-langkah ini untuk memastikan bahwa mereka terdaftar.
+Ada beberapa penyedia sumber daya yang harus terdaftar di langganan Azure Anda. Ikuti langkah-langkah ini untuk memastikan bahwa sumber daya itu terdaftar.
 
 1. Masuk ke portal Microsoft Azure di `https://portal.azure.com` menggunakan kredensial Microsoft yang terkait dengan langganan Anda.
 2. Pada halaman **Beranda**, pilih **Langganan** (atau perluas menu **&#8801;** , pilih **Semua Layanan**, dan pada kategori **Umum**, pilih **Langganan**).

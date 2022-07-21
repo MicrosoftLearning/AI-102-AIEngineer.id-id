@@ -24,7 +24,7 @@ Jika Anda belum mengkloning repositori kode **AI-102-AIEngineer** ke lingkungan 
 3. Setelah repositori dikloning, buka folder di Visual Studio Code.
 4. Tunggu sementara file tambahan diinstal untuk mendukung proyek kode C# di repositori.
 
-    > **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan guna membangun dan men-debug, pilih **Tidak Sekarang**.
+    > **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan untuk membangun dan melakukan debug, pilih **Tidak Sekarang**.
 
 ## <a name="provision-a-cognitive-services-resource"></a>Menyediakan sumber daya Cognitive Services
 
@@ -168,7 +168,7 @@ Sekarang setelah Anda membuat klien untuk Text Analytics API, mari kita gunakan 
 
 ## <a name="evaluate-sentiment"></a>Evaluasi sentimen
 
-*Analisis sentimen* adalah teknik yang umum digunakan untuk mengklasifikasikan teks sebagai *positif* atau *negatif* (atau kemungkinan *netral* atau *campuran* ). Ini biasanya digunakan untuk menganalisis posting media sosial, ulasan produk, dan item lain di mana sentimen teks dapat memberikan wawasan yang berguna.
+*Analisis sentimen* adalah teknik yang umum digunakan untuk mengklasifikasikan teks sebagai *positif* atau *negatif* (atau kemungkinan *netral* atau *campuran*). Ini biasanya digunakan untuk menganalisis posting media sosial, ulasan produk, dan item lain di mana sentimen teks dapat memberikan wawasan yang berguna.
 
 1. Dalam fungsi **Utama** untuk program Anda, temukan komentar **Dapatkan sentimen**. Kemudian, di bawah komentar ini, tambahkan kode yang diperlukan untuk mendeteksi sentimen dari setiap dokumen ulasan:
 
@@ -254,7 +254,7 @@ Akan berguna untuk mengidentifikasi frase kunci dalam tubuh teks untuk membantu 
 
 ## <a name="extract-entities"></a>Mengekstrak entitas
 
-Sering kali, dokumen atau kumpulan teks lainnya menyebutkan orang, tempat, periode waktu, atau entitas lain. API Analytics teks dapat mendeteksi beberapa kategori (dan sub-kategori) entitas dalam teks Anda.
+Umumnya, dokumen atau kumpulan teks lainnya menyebutkan orang, tempat, periode waktu, atau entitas lain. API Analytics teks dapat mendeteksi beberapa kategori (dan sub-kategori) entitas dalam teks Anda.
 
 1. Dalam fungsi **Utama** untuk program Anda, temukan komentar **Dapatkan entitas**. Kemudian, di bawah komentar ini, tambahkan kode yang diperlukan untuk mengidentifikasi entitas yang disebutkan di setiap ulasan:
 

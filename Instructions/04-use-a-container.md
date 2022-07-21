@@ -11,7 +11,7 @@ ms.locfileid: "145195647"
 ---
 # <a name="use-a-cognitive-services-container"></a>Menggunakan Kontainer Cognitive Services
 
-Menggunakan layanan kognitif yang dihosting di Azure memungkinkan pengembang aplikasi untuk fokus pada infrastruktur untuk kode mereka sendiri sambil memanfaatkan layanan skalabel yang dikelola oleh Microsoft. Namun, dalam banyak skenario, organisasi memerlukan kontrol lebih besar atas infrastruktur layanan mereka dan data yang diteruskan antar layanan.
+Menggunakan layanan kognitif yang dihosting di Azure memungkinkan pengembang aplikasi untuk fokus pada infrastruktur kode mereka sambil memanfaatkan layanan skalabel yang dikelola oleh Microsoft. Namun, dalam banyak skenario, organisasi memerlukan kontrol lebih besar atas infrastruktur layanan mereka dan data yang diteruskan antar layanan.
 
 Banyak dari layanan kognitif API dapat dikemas dan disebarkan dalam sebuah *kontainer*, memungkinkan organisasi untuk meng-host layanan kognitif dalam infrastruktur mereka sendiri; misalnya di server Docker lokal, Azure Container Instances, atau kluster Azure Kubernetes Service. Layanan kognitif kemas perlu berkomunikasi dengan akun layanan kognitif berbasis Azure untuk mendukung penagihan; tetapi data aplikasi tidak diteruskan ke layanan back-end, dan organisasi memiliki kontrol lebih besar atas konfigurasi penyebaran kontainer mereka, memungkinkan solusi kustom untuk autentikasi, skalabilitas, dan pertimbangan lainnya.
 
@@ -24,7 +24,7 @@ Jika Anda sudah mengkloning repositori kode **AI-102-AIEngineer** ke lingkungan 
 3. Setelah repositori dikloning, buka folder di Visual Studio Code.
 4. Tunggu sementara file tambahan diinstal untuk mendukung proyek kode C# di repositori.
 
-    > **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan guna membangun dan men-debug, pilih **Tidak Sekarang**.
+    > **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan untuk membangun dan melakukan debug, pilih **Tidak Sekarang**.
 
 ## <a name="provision-a-cognitive-services-resource"></a>Menyediakan sumber daya Cognitive Services
 

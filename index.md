@@ -11,9 +11,9 @@ ms.locfileid: "145195668"
 ---
 # <a name="content-directory"></a>Direktori Konten
 
-Repositori ini berisi latihan lab langsung untuk kursus Microsoft [AI-102 Merancang dan Menerapkan Solusi Microsoft Azure AI](https://docs.microsoft.com/learn/certifications/courses/ai-102t00) dan [modul mandiri yang setara di Microsoft Learn](https://aka.ms/AzureLearn_AIEngineer). Latihan ini didesain untuk melengkapi materi pembelajaran dan memungkinkan Anda mempraktikkan teknologi yang dijelaskan.
+Repositori ini berisi latihan lab praktik untuk kursus Microsoft [AI-102 Merancang dan Menerapkan Solusi Microsoft Azure AI](https://docs.microsoft.com/learn/certifications/courses/ai-102t00) dan [modul mandiri yang setara di Microsoft Learn](https://aka.ms/AzureLearn_AIEngineer). Latihan ini didesain untuk melengkapi materi pembelajaran dan memungkinkan Anda mempraktikkan teknologi yang dijelaskan.
 
-Untuk menyelesaikan latihan ini, Anda memerlukan langganan Microsoft Azure. Jika instruktur Anda belum menyediakannya, Anda dapat mendaftar untuk coba gratis di [https://azure.microsoft.com](https://azure.microsoft.com).
+Untuk menyelesaikan latihan ini, Anda memerlukan langganan Microsoft Azure. Jika instruktur Anda belum menyediakannya, Anda dapat mendaftar uji coba gratis di [https://azure.microsoft.com](https://azure.microsoft.com).
 
 ## <a name="labs"></a>Lab
 

@@ -1,6 +1,6 @@
 ---
 lab:
-  title: Pantau Cognitive Services
+  title: Memantau Cognitive Services
   module: Module 2 - Developing AI Apps with Cognitive Services
 ms.openlocfilehash: e0e0042421a4f7150fc3b95cef80887c81a78f3a
 ms.sourcegitcommit: acbffd6019fe2f1a6ea70870cf7411025c156ef8
@@ -9,7 +9,7 @@ ms.contentlocale: id-ID
 ms.lasthandoff: 01/12/2022
 ms.locfileid: "145195640"
 ---
-# <a name="monitor-cognitive-services"></a>Pantau Cognitive Services
+# <a name="monitor-cognitive-services"></a>Memantau Cognitive Services
 
 Azure Cognitive Services dapat menjadi bagian penting dari infrastruktur aplikasi secara keseluruhan. Sangat penting untuk dapat memantau aktivitas dan mendapatkan peringatan tentang masalah yang mungkin memerlukan perhatian.
 
@@ -22,7 +22,7 @@ Jika Anda sudah mengkloning repositori kode **AI-102-AIEngineer** ke lingkungan 
 3. Setelah repositori dikloning, buka folder di Visual Studio Code.
 4. Tunggu sementara file tambahan diinstal untuk mendukung proyek kode C# di repositori.
 
-    > **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan guna membangun dan men-debug, pilih **Tidak Sekarang**.
+    > **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan untuk membangun dan melakukan debug, pilih **Tidak Sekarang**.
 
 ## <a name="provision-a-cognitive-services-resource"></a>Menyediakan sumber daya Cognitive Services
 

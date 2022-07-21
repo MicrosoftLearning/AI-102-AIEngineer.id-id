@@ -25,7 +25,7 @@ Repositori ini berisi instruksi lab dan file yang digunakan dalam kursus Kurikul
 
 - File-file di GitHub ini dirancang untuk digunakan di lab kursus, menggunakan lingkungan lab yang dihosting.
 
-- Kami merekomendasikan bahwa untuk setiap pengiriman, pelatih memeriksa GitHub untuk setiap perubahan yang mungkin telah dibuat untuk mendukung layanan Azure terbaru, dan mendapatkan file terbaru untuk pengiriman mereka.
+- Kami merekomendasikan bahwa untuk setiap penyampaian, pelatih memeriksa GitHub untuk setiap perubahan yang mungkin telah dibuat untuk mendukung layanan Azure terbaru, dan mendapatkan file terbaru untuk penyampaian mereka.
 
 ## <a name="what-about-changes-to-the-student-handbook"></a>Bagaimana dengan perubahan pada buku pegangan siswa?
 

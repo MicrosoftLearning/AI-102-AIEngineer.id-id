@@ -11,7 +11,7 @@ ms.locfileid: "145195694"
 ---
 # <a name="lab-environment-setup"></a>Pengaturan Lingkungan Lab
 
-Latihan-latihan ini dirancang untuk diselesaikan di lingkungan lab yang dihosting. Jika Anda ingin menyelesaikannya di komputer Anda sendiri, Anda dapat melakukannya dengan menginstal perangkat lunak berikut. Anda mungkin mengalami dialog dan perilaku yang tidak terduga saat menggunakan lingkungan Anda sendiri. Karena berbagai kemungkinan konfigurasi lokal, tim kursus tidak dapat mendukung masalah yang mungkin Anda temui di lingkungan Anda sendiri.
+Latihan-latihan ini dirancang untuk diselesaikan di lingkungan lab yang dihosting. Jika Anda ingin menyelesaikannya di komputer milik Anda, Anda dapat melakukannya dengan menginstal perangkat lunak berikut. Anda mungkin mengalami dialog dan perilaku yang tidak terduga saat menggunakan lingkungan Anda sendiri. Karena berbagai kemungkinan konfigurasi lokal, tim kursus tidak dapat mendukung masalah yang mungkin Anda temui di lingkungan Anda sendiri.
 
 > **Catatan**: Petunjuk di bawah ini untuk komputer Windows 10. Anda juga dapat menggunakan Linux atau MacOS. Anda mungkin perlu menyesuaikan instruksi lab untuk OS yang Anda pilih.
 
@@ -70,10 +70,10 @@ pip install --upgrade numpy
     - PowerShell
 
 
-### <a name="bot-framework-emulator"></a>Emulator Framework Bot
+### <a name="bot-framework-emulator"></a>Bot Framework Emulator
 
 Ikuti petunjuk di https://github.com/Microsoft/BotFramework-Emulator/blob/master/README.md untuk mengunduh dan menginstal versi stabil terbaru dari Bot Framework Emulator untuk sistem operasi Anda.
 
-### <a name="bot-framework-composer"></a>Komposer Framework Bot
+### <a name="bot-framework-composer"></a>Bot Framework Composer
 
 Pasang dari https://docs.microsoft.com/en-us/composer/install-composer.

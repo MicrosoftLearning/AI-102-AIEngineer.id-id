@@ -11,18 +11,18 @@ ms.locfileid: "145951190"
 ---
 # <a name="get-started-with-cognitive-services"></a>Memulai Cognitive Services
 
-Dalam latihan ini, Anda akan memulai Layanan Kognitif dengan membuat sumber daya **Cognitive Services** di langganan Azure dan menggunakannya dari aplikasi klien. Tujuan dari latihan ini bukan untuk mendapatkan keahlian dalam layanan tertentu, melainkan untuk menjadi akrab dengan pola umum untuk penyediaan dan bekerja dengan cognitive services sebagai pengembang.
+Dalam latihan ini, Anda akan memulai Layanan Kognitif dengan membuat sumber daya **Cognitive Services** di langganan Azure dan menggunakannya dari aplikasi klien. Tujuan dari latihan ini bukan untuk mendapatkan keahlian dalam layanan tertentu, melainkan untuk menjadi terbiasa dengan pola umum untuk penyediaan dan bekerja dengan cognitive services sebagai pengembang.
 
 ## <a name="clone-the-repository-for-this-course"></a>Kloning repositori untuk kursus ini
 
 Jika Anda belum mengkloning repositori kode **AI-102-AIEngineer** ke lingkungan tempat Anda bekerja di lab ini, ikuti langkah-langkah berikut untuk melakukannya. Jika tidak, buka folder kloning di Visual Studio Code.
 
 1. Mulai Visual Studio Code.
-2. Buka palet (SHIFT+CTRL+P) dan jalankan **Git: Perintah klon** untuk mengkloning repositori `https://github.com/MicrosoftLearning/AI-102-AIEngineer` ke folder lokal (tidak masalah folder mana pun).
+2. Buka palet (SHIFT+CTRL+P) dan jalankan **Git: Perintah klon** untuk mengkloning repositori `https://github.com/MicrosoftLearning/AI-102-AIEngineer` ke folder lokal (folder mana pun tidak masalah).
 3. Ketika repositori telah dikloning, buka folder di Visual Studio Code.
 4. Tunggu sementara file tambahan diinstal untuk mendukung proyek kode C# di repositori.
 
-    > **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan untuk membangun dan men-debug, pilih **Tidak Sekarang**.
+    > **Catatan**: Jika Anda diminta untuk menambahkan aset yang diperlukan untuk membangun dan melakukan debug, pilih **Tidak Sekarang**.
 
 ## <a name="provision-a-cognitive-services-resource"></a>Menyediakan sumber daya Cognitive Services
 
@@ -37,7 +37,7 @@ Azure Cognitive Services adalah layanan berbasis cloud yang merangkum kemampuan 
     - **Tingkat harga**: Standar S0
 3. Pilih kotak centang yang diperlukan dan buat sumber daya.
 4. Tunggu hingga penyebaran selesai, lalu lihat detail penyebaran.
-5. Buka sumber daya dan lihat lhaaman **Kunci dan Titik Akhir**. Halaman ini berisi informasi yang Anda perlukan untuk terhubung ke sumber daya Anda dan menggunakannya dari aplikasi yang Anda kembangkan. Khususnya:
+5. Buka sumber daya dan lihat haaman **Kunci dan Titik Akhir**. Halaman ini berisi informasi yang Anda perlukan untuk terhubung ke sumber daya Anda dan menggunakannya dari aplikasi yang Anda kembangkan. Khususnya:
     - *Titik akhir* HTTP tempat aplikasi klien dapat mengirim permintaan.
     - Dua *kunci* yang dapat digunakan untuk autentikasi (aplikasi klien dapat menggunakan salah satu kunci untuk mengautentikasi).
     - *Lokasi* tempat sumber daya dihosting. Ini diperlukan untuk permintaan ke beberapa (tetapi tidak semua) API.
