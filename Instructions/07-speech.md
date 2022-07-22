@@ -434,7 +434,7 @@ Speech Synthesis Markup Language (SSML) memungkinkan Anda menyesuaikan cara ucap
     python speaking-clock.py
     ```
 
-3. Ketika diminta, bicaralah dengan jelas ke mikrofon dan ucapkan "jam berapa sekarang?". Program harus berbicara dalam suara yang ditentukan dalam SSML (mengesampingkan suara yang ditentukan dalam SpeechConfig), memberi tahu Anda waktu, dan kemudian setelah jeda memberi tahu Anda saatnya untuk mengakhiri lab ini - yang mana itu!
+3. Ketika diminta, bicaralah dengan jelas ke mikrofon dan ucapkan "jam berapa sekarang?". Program harus berbicara dalam suara yang ditentukan dalam SSML (mengesampingkan suara yang ditentukan dalam SpeechConfig), memberi tahu Anda waktu, dan kemudian setelah jeda memberi tahu Anda saatnya untuk mengakhiri lab ini - lab ini sudah selesai!
 
 ## <a name="more-information"></a>Informasi selengkapnya
 

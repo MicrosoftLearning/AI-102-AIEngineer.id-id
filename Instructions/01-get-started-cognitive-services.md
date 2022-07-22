@@ -37,7 +37,7 @@ Azure Cognitive Services adalah layanan berbasis cloud yang merangkum kemampuan 
     - **Tingkat harga**: Standar S0
 3. Pilih kotak centang yang diperlukan dan buat sumber daya.
 4. Tunggu hingga penyebaran selesai, lalu lihat detail penyebaran.
-5. Buka sumber daya dan lihat haaman **Kunci dan Titik Akhir**. Halaman ini berisi informasi yang Anda perlukan untuk terhubung ke sumber daya Anda dan menggunakannya dari aplikasi yang Anda kembangkan. Khususnya:
+5. Buka sumber daya dan lihat halaman **Kunci dan Titik Akhir**. Halaman ini berisi informasi yang Anda perlukan untuk terhubung ke sumber daya Anda dan menggunakannya dari aplikasi yang Anda kembangkan. Khususnya:
     - *Titik akhir* HTTP tempat aplikasi klien dapat mengirim permintaan.
     - Dua *kunci* yang dapat digunakan untuk autentikasi (aplikasi klien dapat menggunakan salah satu kunci untuk mengautentikasi).
     - *Lokasi* tempat sumber daya dihosting. Ini diperlukan untuk permintaan ke beberapa (tetapi tidak semua) API.
